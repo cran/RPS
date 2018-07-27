@@ -40,7 +40,4 @@ RPS::resunivMDS_RPS(distance,2)
 }
 \author{
 Guillermo Pacheco, Viviana Ferraggine, Sebastian Torcida
- Given a n x n distance matrix D (not necessarily Euclidean) and a initial set X0 (nxk matrix)
- of n seeds in k dim, the function finds a set of n points  in k dimensions X (kxn matrix) by resistent method such
- that Euclidean distance nxn matrix Dk among these new points X is as close as to D.
 }

@@ -28,12 +28,13 @@ a set of configurations of landmarks either in 3D and 2D; ii) a resistant
 distance (resdistance_RPS.R) to quantify shape differences obtained following
 the resistant Procrustes superimposition, and iii) a resistant ordination
 (resunivMDS_RPS.R) of the superimposed configurations based on the universal
-Multidimensional Scaling from (Agarwal et al. 2010). The corresponding least
+Multidimensional Scaling from (Agarwal et al. 2010). Corresponding least
 squares (LS) counterparts of all these tools (procrustesCM_RPS.R,
 cmdistance_RPS.R and eucunivMDS_RPS.R, respectively) have also been implemented
-in RPS_R to offer a more complete set of shape analysis descriptive tools. This
-enables the comparison of the LS and resistant superimposition results when
-applied to the same dataset. Also included is a rather new method for a
+in RPS_R to offer a more complete and self-contained set of shape analysis
+descriptive tools. This enables the comparison of the LS and resistant
+superimposition results when  applied to the same dataset.
+Also included is a rather new method for a
 resistant analysis of individual shape asymmetry for configurations of
 landmarks in 2D with bilateral symmetry (matching or object symmetry), following
 Torcida et al. 2016 ("A resistant method for landmark-based analysis of

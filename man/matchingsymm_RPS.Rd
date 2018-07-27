@@ -4,7 +4,7 @@
 \alias{matchingsymm_RPS}
 \title{This function obtains the individual resistant-symmetric shape for 2D
 matching-symmetry data. The input is an array A of size
-n (landmarks) x p (dimensions) x 2k (objects: the left-right sides for each)
+n (landmarks) x p (dimensions) x 2k (objects: the left-right sides for each).
 Configurations are ordered in this way: left side Object 1, right side Object 1,
 left side Object 2, right side Object 2, etc}
 \usage{
@@ -20,7 +20,7 @@ matchingsymm_RPS(A,ctr="gmedian",legend.loc="topleft")
 \description{
 This function obtains the individual resistant-symmetric shape for 2D
 matching-symmetry data. The input is an array A of size
-n (landmarks) x p (dimensions) x 2k (objects: the left-right sides for each)
+n (landmarks) x p (dimensions) x 2k (objects: the left-right sides for each).
 Configurations are ordered in this way: left side Object 1, right side Object 1,
 left side Object 2, right side Object 2, etc
 }

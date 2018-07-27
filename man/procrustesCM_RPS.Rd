@@ -2,8 +2,9 @@
 % Please edit documentation in R/procrustesCM_RPS.R
 \name{procrustesCM_RPS}
 \alias{procrustesCM_RPS}
-\title{This function performs the classical least-squares (LS)
-Procrustes superimposition of the input configurations of landmarks}
+\title{This function s simply a wrapper for the geomorph function gpagen that performs
+the classical least squares Procrustes superimposition of the input configurations
+of landmarks.}
 \usage{
 procrustesCM_RPS(X)
 }
@@ -11,11 +12,12 @@ procrustesCM_RPS(X)
 \item{X}{A s-dimensional array (s=2 or s=3) of n x k matrices, representing shapes of k objects through n landmarks in s dimensions}
 }
 \value{
-s-dimensional array of n x k matrices, representing the different specimens after adjusting.
+s-dimensional array of n x k matrices,  representing shapes of k objects following superimposition.
 }
 \description{
-This function performs the classical least-squares (LS)
-Procrustes superimposition of the input configurations of landmarks
+This function s simply a wrapper for the geomorph function gpagen that performs
+the classical least squares Procrustes superimposition of the input configurations
+of landmarks.
 }
 \examples{
 source = array(matrix(nrow = 8,ncol = 3),c(8,3,3),dimnames = NULL)
@@ -31,5 +33,5 @@ result
 
 }
 \author{
-Guillermo Pacheco, Viviana Ferraggine, Sebastian Torcida
+Dean C.Adams, Michael Collyer
 }

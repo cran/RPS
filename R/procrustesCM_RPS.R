@@ -1,11 +1,11 @@
-#' This function performs the classical least-squares (LS)
-#' Procrustes superimposition of the input configurations of landmarks
+#' This function s simply a wrapper for the geomorph function gpagen that performs
+#' the classical least squares Procrustes superimposition of the input configurations
+#' of landmarks.
 #'
 #' @param X A s-dimensional array (s=2 or s=3) of n x k matrices, representing shapes of k objects through n landmarks in s dimensions
 #'
-#' @return s-dimensional array of n x k matrices, representing the different specimens after adjusting.
-#'
-#' @author Guillermo Pacheco, Viviana Ferraggine, Sebastian Torcida
+#' @return s-dimensional array of n x k matrices,  representing shapes of k objects following superimposition.
+#' @author Dean C.Adams, Michael Collyer
 #'
 #' @usage
 #' procrustesCM_RPS(X)

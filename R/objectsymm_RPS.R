@@ -2,7 +2,7 @@
 #' object-symmetry data. The input is an array A of size
 #' n (landmarks) x p (dimensions) x k (objects)
 #' Landmarks must be in this order: saggital (or unpaired) landmarks first,
-#' then left paired landmarks and finally right paired landmarks
+#' then left paired landmarks and finally right paired landmarks.
 #' Configurations are ordered in this way: L side Object 1 and R side Object 1,
 #' L side Object 2 and R side Object 2, etc
 #'

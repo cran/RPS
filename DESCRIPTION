@@ -1,11 +1,11 @@
 Package: RPS
 Type: Package
 Title: Resistant Procrustes Superimposition
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: c(person("Guillermo Andres", "Pacheco", email = "guillermopacheco.exa@gmail.com",
                   role = c("aut", "cre")),
                   person("Sebastian", "Torcida", email = "unisebas@gmail.com", role = "aut"),
-                  person("Viviana", "Ferragine", email = "viviana.ferraggine@gmail.com", role = "aut"),
+                  person("Viviana", "Ferraggine", email = "viviana.ferraggine@gmail.com", role = "aut"),
                   person("Federico", "Lotto", email = "federicolotto@gmail.com@gmail.com", role = "aut"))
 Maintainer: Guillermo Andres Pacheco <guillermopacheco.exa@gmail.com>
 Description: Based on RPS tools, a rather complete resistant shape
@@ -18,10 +18,10 @@ LazyData: true
 RoxygenNote: 6.0.1
 Imports: geomorph, MASS, igraph, ape, matlab, Gmedian
 NeedsCompilation: no
-Packaged: 2018-07-12 00:27:36 UTC; Guillermo
+Packaged: 2018-07-27 21:06:03 UTC; Guillermo
 Author: Guillermo Andres Pacheco [aut, cre],
   Sebastian Torcida [aut],
-  Viviana Ferragine [aut],
+  Viviana Ferraggine [aut],
   Federico Lotto [aut]
 Repository: CRAN
-Date/Publication: 2018-07-18 13:50:03 UTC
+Date/Publication: 2018-07-27 21:30:05 UTC
